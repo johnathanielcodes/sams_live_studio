@@ -45,7 +45,7 @@
                             <div>
                                 <h3 class="text-white font-semibold mb-1">Email</h3>
                                 <p class="text-gray-300">{{ env('STUDIO_EMAIL') }}</p>
-                                <p class="text-gray-300">bookings@samslivestudios.co.ke</p>
+                                <p class="text-gray-300">{{ env('BOOKINGS_EMAIL') }}</p>
                             </div>
                         </div>
                         <div class="flex items-start gap-4">
